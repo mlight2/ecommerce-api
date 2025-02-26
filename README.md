@@ -78,16 +78,6 @@ curl -X POST "http://127.0.0.1:8000/orders/" \
      -d '{"products": [{"product_id": 1, "quantity": 2}]}'
 ```
 
-### 4️⃣ Get All Orders
-```sh
-curl -X GET "http://127.0.0.1:8000/orders/"
-```
-
-### 5️⃣ Get Order by ID
-```sh
-curl -X GET "http://127.0.0.1:8000/orders/1"
-```
-
 ## API Documentation
 FastAPI provides interactive API documentation:
 - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
